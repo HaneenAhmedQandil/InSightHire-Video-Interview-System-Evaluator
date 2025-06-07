@@ -1,0 +1,44 @@
+{
+  "timestamp": "20250605_193103",
+  "video_file": "data/recordings/interview_q0_20250605_192807.mp4",
+  "question": "Suppose you have to fine-tune a pre-trained wav2vec 2.0 model on a new emotional‐speech dataset. Which steps would you follow (data preprocessing, training loop, hyperparameter tuning), and why?",
+  "question_type": "Technical",
+  "emotion_analysis": {
+    "dominant_emotion": "sad",
+    "avg_confidence": 0.9997452985156666,
+    "emotion_distribution": {
+      "sad": 11
+    },
+    "total_segments": 11,
+    "all_emotions": [
+      "sad",
+      "sad",
+      "sad",
+      "sad",
+      "sad",
+      "sad",
+      "sad",
+      "sad",
+      "sad",
+      "sad",
+      "sad"
+    ],
+    "all_confidences": [
+      0.9999993443489075,
+      0.9999966621398926,
+      0.9999996423721313,
+      0.9999663233757019,
+      0.9997619390487671,
+      0.9999994039535522,
+      0.9999944567680359,
+      0.9990571737289429,
+      0.9999637603759766,
+      0.9984661340713501,
+      0.9999934434890747
+    ]
+  },
+  "transcript": "",
+  "grammar_analysis": null,
+  "answer_evaluation": null,
+  "aggregate_evaluation": null
+}

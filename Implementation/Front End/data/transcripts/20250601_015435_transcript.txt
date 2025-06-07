@@ -1,0 +1,8 @@
+Question: Given a large dataset of audio recordings, describe at least three feature-extraction techniques (e.g., Mel-spectrogram, log-Mel, MFCC) and discuss the pros and cons of each for a SER task.
+
+Answer: For speech, emotional recognition, free common feature extraction techniques are melispectogram and represent the power of spectrum of audio on melisquery, which aligns well with human perception. The second one is melispectogram, it is a melispectogram with logarithmic compression. The third one is MFCC, melisfrequency-subestral coefficients. This compresses melispectrum using a discrete cosine transform. In general, log melispectograms will rule with one feature fed and to transform it or serve as verbal models, tend to perform best for modern speech, emotional recognition tasks. And there are pros and cons for each one.
+
+Dominant Emotion: disgust
+Answer Score: 37.1/100
+Emotion Score: 11.0/100
+Combined Score: 24.1/100

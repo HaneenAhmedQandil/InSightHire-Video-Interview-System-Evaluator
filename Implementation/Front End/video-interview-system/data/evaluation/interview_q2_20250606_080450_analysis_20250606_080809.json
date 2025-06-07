@@ -1,0 +1,130 @@
+{
+  "timestamp": "20250606_080809",
+  "video_file": "data/recordings/interview_q2_20250606_080450.mp4",
+  "question": "What are your greatest strengths and how do they apply to this role?",
+  "question_type": "HR",
+  "emotion_analysis": {
+    "dominant_emotion": "calm",
+    "avg_confidence": 0.643041107389662,
+    "emotion_distribution": {
+      "calm": 6,
+      "sad": 3
+    },
+    "total_segments": 9,
+    "all_emotions": [
+      "calm",
+      "calm",
+      "sad",
+      "calm",
+      "calm",
+      "calm",
+      "sad",
+      "sad",
+      "calm"
+    ],
+    "all_confidences": [
+      0.7577885985374451,
+      0.5957725048065186,
+      0.6972195506095886,
+      0.5046057105064392,
+      0.5058857798576355,
+      0.3800077438354492,
+      0.6786872148513794,
+      0.9510524868965149,
+      0.7163503766059875
+    ]
+  },
+  "transcript": "One of my greats, the stresses is my ability to learn quickly and adapt to new technologies. And fast evolving fields like machine learning and speech processing, this crucial. For example, when I started working with Transformer based modus legs with Tobak, I quickly got up to speed my sudden dark textures, experimenting with pre-train modus and fine tuning them for specific downstream tasks. Another key strength is my structured problem solving mindset. I break down complex tasks like building a machine, a locomotion system and 12 defined stages, which are data cleaning modus selection, training, evaluation and iteration. This helps me to organize and deliver reproducible results. Finally, I would say communication and collaboration are strength, are strength is i value. I make a point to document my work, and clearly discuss ideas openly with teammates, which had helped avoid blockers and speed of product timelines. Finally, our sorry time. These traffic align well with this role where track and complex speech are all zero.",
+  "grammar_analysis": {
+    "grammar_score": 76.8,
+    "local_errors": [
+      {
+        "category": "MISC",
+        "rule_id": "EN_COMPOUNDS_FINE_TUNING",
+        "message": "This word is normally spelled with a hyphen.",
+        "offset": 345,
+        "length": 11,
+        "context": "... experimenting with pre-train modus and fine tuning them for specific downstream tasks. Ano...",
+        "suggestions": [
+          "fine-tuning"
+        ],
+        "error_text": "fine tuning",
+        "severity": "low"
+      }
+    ],
+    "error_count": 1,
+    "filler_count": 3,
+    "filler_rate": 1.8,
+    "word_count": 163,
+    "original_word_count": 166,
+    "sentence_count": 10,
+    "key_strengths": [
+      "Use of complex sentence structures",
+      "Variety in verb tenses"
+    ],
+    "key_issues": [
+      "Subject-verb agreement",
+      "Sentence fragments",
+      "Punctuation for clarity"
+    ],
+    "specific_suggestions": [
+      "Ensure subject-verb agreement in sentences like 'the stresses is my ability'",
+      "Avoid sentence fragments such as 'this crucial'",
+      "Use punctuation to separate ideas clearly, especially in complex sentences"
+    ],
+    "interview_assessment": "The transcript demonstrates a good use of complex sentence structures and varied verb tenses, but it suffers from issues with subject-verb agreement, sentence fragments, and punctuation clarity, which affect the overall coherence.",
+    "corrected_text": "One of my greats, the stresses is my ability to learn quickly and adapt to new technologies. And fast evolving fields  machine learning and speech processing, this crucial. For example, when I started working with Transformer based modus legs with Tobak, I quickly got up to speed my sudden dark textures, experimenting with pre-train modus and fine tuning them for specific downstream tasks. Another key strength is my structured problem solving mindset. I break down complex tasks  building a machine, a locomotion system and 12 defined stages, which are data cleaning modus selection, training, evaluation and iteration. This helps me to organize and deliver reproducible results. Finally, I would say communication and collaboration are strength, are strength is i value. I make a point to document my work, and clearly discuss ideas openly with teammates, which had helped avoid blockers and speed of product timelines. Finally, our sorry time. These traffic align  with this role where track and complex speech are all zero.",
+    "original_text": "One of my greats, the stresses is my ability to learn quickly and adapt to new technologies. And fast evolving fields like machine learning and speech processing, this crucial. For example, when I started working with Transformer based modus legs with Tobak, I quickly got up to speed my sudden dark textures, experimenting with pre-train modus and fine tuning them for specific downstream tasks. Another key strength is my structured problem solving mindset. I break down complex tasks like building a machine, a locomotion system and 12 defined stages, which are data cleaning modus selection, training, evaluation and iteration. This helps me to organize and deliver reproducible results. Finally, I would say communication and collaboration are strength, are strength is i value. I make a point to document my work, and clearly discuss ideas openly with teammates, which had helped avoid blockers and speed of product timelines. Finally, our sorry time. These traffic align well with this role where track and complex speech are all zero.",
+    "cleaned_text": "One of my greats, the stresses is my ability to learn quickly and adapt to new technologies. And fast evolving fields  machine learning and speech processing, this crucial. For example, when I started working with Transformer based modus legs with Tobak, I quickly got up to speed my sudden dark textures, experimenting with pre-train modus and fine tuning them for specific downstream tasks. Another key strength is my structured problem solving mindset. I break down complex tasks  building a machine, a locomotion system and 12 defined stages, which are data cleaning modus selection, training, evaluation and iteration. This helps me to organize and deliver reproducible results. Finally, I would say communication and collaboration are strength, are strength is i value. I make a point to document my work, and clearly discuss ideas openly with teammates, which had helped avoid blockers and speed of product timelines. Finally, our sorry time. These traffic align  with this role where track and complex speech are all zero.",
+    "analysis_type": "hybrid",
+    "ai_used": true
+  },
+  "answer_evaluation": {
+    "question": "What are your greatest strengths and how do they apply to this role?",
+    "type": "HR",
+    "old_dataset_score": 90.24,
+    "rubric_score": 75.95,
+    "final_combined_score": 80.24,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Relevance",
+          "score": 81.67,
+          "explanation": "The response effectively addresses the question by identifying and relating relevant strengths, such as adaptability to new technologies and structured problem-solving, to the role."
+        },
+        {
+          "name": "Clarity",
+          "score": 63.33,
+          "explanation": "The answer is somewhat unclear and lacks clarity due to several grammatical errors and awkward phrasing."
+        },
+        {
+          "name": "Professionalism",
+          "score": 75.0,
+          "explanation": "The tone is generally professional, but could be enhanced by addressing minor informal language and communication issues."
+        },
+        {
+          "name": "Depth of Insight",
+          "score": 73.33,
+          "explanation": "The response offers specific examples highlighting strengths but falls short in thoroughly explaining their application and impact."
+        },
+        {
+          "name": "Positivity",
+          "score": 85.0,
+          "explanation": "The response highlights strengths and achievements in a positive and proactive manner."
+        },
+        {
+          "name": "Engagement",
+          "score": 65.0,
+          "explanation": "The answer provides some engagement and mentions teamwork but fails to actively invite further discussion or engagement with the interviewer."
+        },
+        {
+          "name": "Adaptability",
+          "score": 88.33,
+          "explanation": "The candidate shows strong adaptability by quickly learning new technologies and applying them effectively to solve problems."
+        }
+      ],
+      "overall_score": 75.95
+    }
+  },
+  "aggregate_evaluation": null
+}

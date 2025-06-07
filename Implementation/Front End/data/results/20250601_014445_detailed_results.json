@@ -1,0 +1,83 @@
+{
+  "question": "Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.",
+  "video_file": "data/recordings/interview_20250601_014445.mp4",
+  "transcript": "To implement the transformer based on the speech and motion recognition pipeline, I want to follow these steps. Start with raw audio input. Typically don't read files and use library like Grosza or Tors audio. Extract feature, the second step is tracking feature. Either by logged mirror spectrograms or a pre-self-trained supervised modern life like what we have to work. P.D.s embedding enter transformer encoded and apply mean pooling use s, c, l, s token. Train using cross entropy loss and evaluate was accuracy of one score. Optionally apply that augmentation like respect augment or noise and direction to improve robustness.",
+  "emotion_analysis": {
+    "dominant_emotion": "disgust",
+    "avg_confidence": 0.7781123320261637,
+    "emotion_distribution": {
+      "fearful": 1,
+      "angry": 2,
+      "disgust": 3
+    },
+    "total_segments": 6,
+    "all_emotions": [
+      "fearful",
+      "angry",
+      "disgust",
+      "disgust",
+      "disgust",
+      "angry"
+    ],
+    "all_confidences": [
+      0.8845206499099731,
+      0.7892126441001892,
+      0.6706641316413879,
+      0.543890655040741,
+      0.9954341053962708,
+      0.7849518060684204
+    ]
+  },
+  "emotion_score": 13.616965810457863,
+  "answer_evaluation": {
+    "question": "Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.",
+    "type": "Technical",
+    "old_dataset_score": 0.0,
+    "rubric_score": 42.86,
+    "final_combined_score": 42.86,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Clarity",
+          "score": 40,
+          "explanation": "The answer is difficult to understand due to grammatical errors and unclear terminology."
+        },
+        {
+          "name": "Accuracy",
+          "score": 30,
+          "explanation": "The answer contains several inaccuracies regarding the implementation of a transformer-based SER pipeline."
+        },
+        {
+          "name": "Completeness",
+          "score": 50,
+          "explanation": "The answer mentions some steps but lacks detail and key components like data preprocessing and model fine-tuning."
+        },
+        {
+          "name": "Relevance",
+          "score": 60,
+          "explanation": "The answer attempts to address the question but includes irrelevant terms like 'motion recognition'."
+        },
+        {
+          "name": "Depth",
+          "score": 40,
+          "explanation": "The answer provides superficial insights without detailed explanations of each step."
+        },
+        {
+          "name": "Conciseness",
+          "score": 50,
+          "explanation": "The answer is somewhat concise but lacks coherence and necessary detail."
+        },
+        {
+          "name": "Engagement",
+          "score": 30,
+          "explanation": "The answer is disengaging due to its confusing structure and unclear language."
+        }
+      ],
+      "overall_score": 42.86
+    }
+  },
+  "answer_score": 42.86,
+  "combined_score": 28.23848290522893,
+  "timestamp": "20250601_014445",
+  "duration": 60
+}

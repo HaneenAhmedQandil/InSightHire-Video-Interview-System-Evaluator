@@ -1,0 +1,8 @@
+Question: Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.
+
+Answer: Audio quality too poor for reliable transcription
+
+Dominant Emotion: angry
+Answer Score: 15.7/100
+Emotion Score: 11.9/100
+Combined Score: 13.8/100

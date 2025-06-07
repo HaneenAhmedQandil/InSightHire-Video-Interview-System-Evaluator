@@ -1,0 +1,37 @@
+{
+  "timestamp": "20250601_074356",
+  "video_file": "data/recordings/interview_20250601_074151.mp4",
+  "question": "How does Retrieval-Augmented Generation (RAG) improve answer evaluation compared to using a vanilla LLM? Illustrate with a pseudo-code or high-level workflow.",
+  "question_type": "Technical",
+  "emotion_analysis": {
+    "dominant_emotion": "disgust",
+    "avg_confidence": 0.6926494042078654,
+    "emotion_distribution": {
+      "fearful": 1,
+      "angry": 1,
+      "disgust": 3,
+      "surprised": 1
+    },
+    "total_segments": 6,
+    "all_emotions": [
+      "fearful",
+      "angry",
+      "disgust",
+      "surprised",
+      "disgust",
+      "disgust"
+    ],
+    "all_confidences": [
+      0.7118609547615051,
+      0.7641265988349915,
+      0.958936333656311,
+      0.682226836681366,
+      0.5010712742805481,
+      0.5376744270324707
+    ]
+  },
+  "transcript": "I am Hanin Ahmed at the British and from the British University in Egypt. Senior AI student, I'm so tired. Please work to make me sleep on such a day. I'm trying to solve the problems and errors in this code. And I'm so tired to talk or answer or test in the system anymore. So please help me sleep.",
+  "answer_evaluation": {
+    "error": "Values for the widget with key \"toggle_analysis_clarity_0\" cannot be set using `st.session_state`."
+  }
+}

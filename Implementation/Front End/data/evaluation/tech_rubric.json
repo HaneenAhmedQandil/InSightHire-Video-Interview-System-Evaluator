@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Clarity",
+    "description": "The answer should be clear and easy to understand."
+  },
+  {
+    "name": "Accuracy",
+    "description": "The answer must be factually correct and precise."
+  },
+  {
+    "name": "Completeness",
+    "description": "The answer should cover all necessary points without missing key information."
+  },
+  {
+    "name": "Relevance",
+    "description": "The answer must directly address the question asked."
+  },
+  {
+    "name": "Depth",
+    "description": "The answer should provide detailed insights beyond superficial information."
+  },
+  {
+    "name": "Conciseness",
+    "description": "The answer should be succinct and avoid unnecessary verbosity."
+  },
+  {
+    "name": "Engagement",
+    "description": "The answer should maintain the reader's interest and promote understanding."
+  }
+]

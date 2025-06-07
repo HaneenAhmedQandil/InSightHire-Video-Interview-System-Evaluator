@@ -1,0 +1,99 @@
+{
+  "timestamp": "20250605_180151",
+  "video_file": "data/recordings/interview_q1_20250605_180003.mp4",
+  "question": "Suppose you have to fine-tune a pre-trained wav2vec 2.0 model on a new emotional‐speech dataset. Which steps would you follow (data preprocessing, training loop, hyperparameter tuning), and why?",
+  "question_type": "Technical",
+  "emotion_analysis": {
+    "dominant_emotion": "surprised",
+    "avg_confidence": 0.43647515773773193,
+    "emotion_distribution": {
+      "surprised": 1,
+      "happy": 1,
+      "angry": 1
+    },
+    "total_segments": 3,
+    "all_emotions": [
+      "surprised",
+      "happy",
+      "angry"
+    ],
+    "all_confidences": [
+      0.5545364618301392,
+      0.31750601530075073,
+      0.4373829960823059
+    ]
+  },
+  "transcript": "I have to find a list of files on a new Emotion and Speech Data Set. I think I will need data prefossessing such as document, no, no, no, augmentation, like crafting, expanding, adding, going, removing noise, checking the applicants, all of this. And I think I will need hyper-parameter.",
+  "grammar_analysis": {
+    "grammar_score": 91.0,
+    "local_errors": [],
+    "error_count": 0,
+    "word_count": 49,
+    "sentence_count": 3,
+    "key_strengths": [
+      "Correct use of verb tenses",
+      "Appropriate subject-verb agreement"
+    ],
+    "key_issues": [
+      "Sentence structure could be improved for clarity",
+      "Punctuation for clarity"
+    ],
+    "specific_suggestions": [
+      "Consider breaking up the list of actions for clarity",
+      "Use punctuation to separate distinct ideas"
+    ],
+    "interview_assessment": "The transcript demonstrates generally correct grammar usage, with appropriate verb tenses and subject-verb agreement. However, the sentence structure and punctuation could be improved to enhance clarity, especially in the list of actions.",
+    "corrected_text": "I have to find a list of files on a new Emotion and Speech Data Set. I think I will need data prefossessing such as document, no, no, no, augmentation,  crafting, expanding, adding, going, removing noise, checking the applicants, all of this. And I think I will need hyper-parameter.",
+    "original_text": "I have to find a list of files on a new Emotion and Speech Data Set. I think I will need data prefossessing such as document, no, no, no, augmentation,  crafting, expanding, adding, going, removing noise, checking the applicants, all of this. And I think I will need hyper-parameter.",
+    "analysis_type": "hybrid",
+    "ai_used": true
+  },
+  "answer_evaluation": {
+    "question": "Suppose you have to fine-tune a pre-trained wav2vec 2.0 model on a new emotional‐speech dataset. Which steps would you follow (data preprocessing, training loop, hyperparameter tuning), and why?",
+    "type": "Technical",
+    "old_dataset_score": 0.0,
+    "rubric_score": 18.33,
+    "final_combined_score": 18.33,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Clarity",
+          "score": 20.0,
+          "explanation": "The response is confusing and difficult to understand due to vague language and a lack of clear, coherent structure."
+        },
+        {
+          "name": "Accuracy",
+          "score": 10.0,
+          "explanation": "The evaluation reveals inaccuracies and vague references, alongside missing specifics related to the process."
+        },
+        {
+          "name": "Completeness",
+          "score": 13.33,
+          "explanation": "The explanation lacks key steps, including training loop specifics and preprocessing methods, crucial for understanding the fine-tuning process."
+        },
+        {
+          "name": "Relevance",
+          "score": 25.0,
+          "explanation": "The response fails to fully and directly address the question, providing largely irrelevant information and lacking depth in relevant areas."
+        },
+        {
+          "name": "Depth",
+          "score": 10.0,
+          "explanation": "The answer is superficial, lacking detailed explanations and depth in describing the processes mentioned."
+        },
+        {
+          "name": "Conciseness",
+          "score": 33.33,
+          "explanation": "The response is concise yet insufficient due to missing essential details, resulting in a lack of substantive content."
+        },
+        {
+          "name": "Engagement",
+          "score": 16.67,
+          "explanation": "The answer is unengaging and fails to maintain reader interest due to its incoherent, disorganized, and unclear presentation lacking sufficient detail."
+        }
+      ],
+      "overall_score": 18.33
+    }
+  },
+  "aggregate_evaluation": null
+}

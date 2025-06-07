@@ -1,0 +1,78 @@
+{
+  "timestamp": "20250602_043816",
+  "video_file": "data/recordings/interview_20250602_043537.mp4",
+  "question": "What are your greatest strengths and how do they apply to this role?",
+  "question_type": "HR",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.8227489233016968,
+    "emotion_distribution": {
+      "angry": 3,
+      "disgust": 1,
+      "fearful": 1
+    },
+    "total_segments": 5,
+    "all_emotions": [
+      "angry",
+      "disgust",
+      "fearful",
+      "angry",
+      "angry"
+    ],
+    "all_confidences": [
+      0.8956717252731323,
+      0.8630280494689941,
+      0.8185983896255493,
+      0.5866698026657104,
+      0.9497766494750977
+    ]
+  },
+  "transcript": "All people have a strategy. Each of trends are associated by words, experience. I think that my greatest strength is attention to details. As every I have attention to details on every fine object like for example when I'm doing content with an application, if an object isn't aligned with perfectly with another object, I work and I tell myself this problem. And my other trends as working on a special, I think this would benefit further.",
+  "answer_evaluation": {
+    "question": "What are your greatest strengths and how do they apply to this role?",
+    "type": "HR",
+    "old_dataset_score": 88.81,
+    "rubric_score": 52.86,
+    "final_combined_score": 63.64,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Relevance",
+          "score": 70.0,
+          "explanation": "The response highlights attention to detail as a strength but lacks specific relevance and clear applicability to the role in question."
+        },
+        {
+          "name": "Clarity",
+          "score": 50.0,
+          "explanation": "The response is unclear due to grammatical errors and poor sentence structure, making it difficult to comprehend."
+        },
+        {
+          "name": "Professionalism",
+          "score": 60.0,
+          "explanation": "The tone is generally professional but lacks polish, coherence, and refinement, occasionally veering into informality."
+        },
+        {
+          "name": "Depth of Insight",
+          "score": 40.0,
+          "explanation": "The response offers minimal insight and lacks examples illustrating how the candidate's strengths are relevant and beneficial to the role."
+        },
+        {
+          "name": "Positivity",
+          "score": 66.67,
+          "explanation": "The response maintains a positive tone and frames strengths positively but lacks a detailed explanation, resulting in a neutral effect overall."
+        },
+        {
+          "name": "Engagement",
+          "score": 40.0,
+          "explanation": "The response fails to encourage further discussion or effectively engage the interviewer."
+        },
+        {
+          "name": "Adaptability",
+          "score": 43.33,
+          "explanation": "The response fails to demonstrate adaptability and does not clearly link general strengths to the specific role."
+        }
+      ],
+      "overall_score": 52.86
+    }
+  }
+}

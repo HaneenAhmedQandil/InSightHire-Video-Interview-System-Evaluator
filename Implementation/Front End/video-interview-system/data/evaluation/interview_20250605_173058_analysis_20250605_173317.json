@@ -1,0 +1,118 @@
+{
+  "timestamp": "20250605_173317",
+  "video_file": "data/recordings/interview_20250605_173058.mp4",
+  "question": "How does Retrieval-Augmented Generation (RAG) improve answer evaluation compared to using a vanilla LLM? Illustrate with a pseudo-code or high-level workflow.",
+  "question_type": "Technical",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.6324957211812338,
+    "emotion_distribution": {
+      "disgust": 2,
+      "angry": 4
+    },
+    "total_segments": 6,
+    "all_emotions": [
+      "disgust",
+      "angry",
+      "angry",
+      "angry",
+      "angry",
+      "disgust"
+    ],
+    "all_confidences": [
+      0.6060652136802673,
+      0.8928345441818237,
+      0.5447356104850769,
+      0.3709356188774109,
+      0.7565898299217224,
+      0.6238135099411011
+    ]
+  },
+  "transcript": "How rank improved the answer evaluation compared to vanilla LM? When working with vanilla LM and we want to save many many many number of documents like thousands of documents to a very specific answer. We move all these documents to the directly to the LM. So this makes us have very large contacts when do and the LM may have a limit. So to solve this problem that is used to retrieve only the related top key relevant documents and only these relevant documents are fed into the LM not thousands of documents are fed into the LM. So this decrees the connection to and prevent the enemy.",
+  "grammar_analysis": {
+    "grammar_score": 84.4,
+    "local_errors": [
+      {
+        "category": "GRAMMAR",
+        "rule_id": "DT_RB_IN",
+        "message": "The adverb “directly” cannot be used like a noun.",
+        "offset": 230,
+        "length": 12,
+        "context": "... answer. We move all these documents to the directly to the LM. So this makes us have very l...",
+        "suggestions": [],
+        "error_text": "the directly",
+        "severity": "medium"
+      }
+    ],
+    "error_count": 1,
+    "word_count": 108,
+    "sentence_count": 5,
+    "key_strengths": [
+      "Use of complex sentence structures",
+      "Attempts at clarity through repetition"
+    ],
+    "key_issues": [
+      "Inconsistent verb tenses",
+      "Sentence fragments",
+      "Incorrect use of articles"
+    ],
+    "specific_suggestions": [
+      "Ensure consistent verb tense usage throughout the text.",
+      "Avoid sentence fragments by completing thoughts.",
+      "Use articles correctly to improve clarity."
+    ],
+    "interview_assessment": "The transcript demonstrates an understanding of complex sentence structures but suffers from inconsistent verb tenses and sentence fragments, which affect clarity.",
+    "corrected_text": "How rank improved the answer evaluation compared to vanilla LM? When working with vanilla LM and we want to save many many many number of documents  thousands of documents to a very specific answer. We move all these documents to the directly to the LM. So this makes us have very large contacts when do and the LM may have a limit. So to solve this problem that is used to retrieve only the related top key relevant documents and only these relevant documents are fed into the LM not thousands of documents are fed into the LM. So this decrees the connection to and prevent the enemy.",
+    "original_text": "How rank improved the answer evaluation compared to vanilla LM? When working with vanilla LM and we want to save many many many number of documents  thousands of documents to a very specific answer. We move all these documents to the directly to the LM. So this makes us have very large contacts when do and the LM may have a limit. So to solve this problem that is used to retrieve only the related top key relevant documents and only these relevant documents are fed into the LM not thousands of documents are fed into the LM. So this decrees the connection to and prevent the enemy.",
+    "analysis_type": "hybrid",
+    "ai_used": true
+  },
+  "answer_evaluation": {
+    "question": "How does Retrieval-Augmented Generation (RAG) improve answer evaluation compared to using a vanilla LLM? Illustrate with a pseudo-code or high-level workflow.",
+    "type": "Technical",
+    "old_dataset_score": 0.0,
+    "rubric_score": 43.33,
+    "final_combined_score": 43.33,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Clarity",
+          "score": 40.0,
+          "explanation": "The response is confusing and difficult to understand due to poor sentence structure, grammar, and unclear, repetitive language."
+        },
+        {
+          "name": "Accuracy",
+          "score": 43.33,
+          "explanation": "The explanation of RAG is imprecise, contains factual inaccuracies, and uses incorrect terms."
+        },
+        {
+          "name": "Completeness",
+          "score": 40.0,
+          "explanation": "The explanation of RAG is incomplete, lacking depth, clarity, and comprehensive coverage of its advantages and workflow."
+        },
+        {
+          "name": "Relevance",
+          "score": 60.0,
+          "explanation": "The response addresses the question but lacks focus and coherence, including extraneous information."
+        },
+        {
+          "name": "Depth",
+          "score": 30.0,
+          "explanation": "The response is superficial and lacks comprehensive insights into how RAG enhances answer evaluation."
+        },
+        {
+          "name": "Conciseness",
+          "score": 56.67,
+          "explanation": "The response lacks clarity due to either omission of necessary details, incoherence, or unnecessary repetition."
+        },
+        {
+          "name": "Engagement",
+          "score": 33.33,
+          "explanation": "The response is unengaging and fails to maintain reader interest due to its confusing, repetitive nature and lack of coherence and clarity."
+        }
+      ],
+      "overall_score": 43.33
+    }
+  },
+  "aggregate_evaluation": null
+}

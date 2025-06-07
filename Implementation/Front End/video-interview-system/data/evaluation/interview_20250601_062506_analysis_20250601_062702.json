@@ -1,0 +1,78 @@
+{
+  "timestamp": "20250601_062702",
+  "video_file": "data/recordings/interview_20250601_062506.mp4",
+  "question": "Given a large dataset of audio recordings, describe at least three feature-extraction techniques (e.g., Mel-spectrogram, log-Mel, MFCC) and discuss the pros and cons of each for a SER task.",
+  "question_type": "Technical",
+  "emotion_analysis": {
+    "dominant_emotion": "disgust",
+    "avg_confidence": 0.5994160890579223,
+    "emotion_distribution": {
+      "disgust": 2,
+      "surprised": 2,
+      "angry": 1
+    },
+    "total_segments": 5,
+    "all_emotions": [
+      "disgust",
+      "surprised",
+      "angry",
+      "surprised",
+      "disgust"
+    ],
+    "all_confidences": [
+      0.512739360332489,
+      0.8638855218887329,
+      0.45086178183555603,
+      0.30623653531074524,
+      0.8633572459220886
+    ]
+  },
+  "transcript": "There are many additional extraction techniques. The most popular ones are pre-techniques which are male spectrogram, log-mell and MFCC. For example, I have used MFCC in my gradation project. It was from two extract features, very little features. Then feed it to the network like CNN, LSTM, Olvail, LSTM and all of these. The other ones are male spectrogram and log-mell. They can be used also. Each one of them has a Southern Conte and trending grad application. You want to do your tools and the app...",
+  "answer_evaluation": {
+    "question": "Given a large dataset of audio recordings, describe at least three feature-extraction techniques (e.g., Mel-spectrogram, log-Mel, MFCC) and discuss the pros and cons of each for a SER task.",
+    "type": "Technical",
+    "old_dataset_score": 0.0,
+    "rubric_score": 35.48,
+    "final_combined_score": 35.48,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Clarity",
+          "score": 40.0,
+          "explanation": "The answer is confusing and difficult to understand due to unclear language, incoherent phrasing, and multiple grammatical errors."
+        },
+        {
+          "name": "Accuracy",
+          "score": 26.67,
+          "explanation": "The response is flawed due to factual inaccuracies, misuse of terms like 'male spectrogram', incorrect descriptions of feature extraction techniques, and inclusion of irrelevant information."
+        },
+        {
+          "name": "Completeness",
+          "score": 23.33,
+          "explanation": "The answer inadequately discusses three feature-extraction techniques by failing to cover their pros and cons, especially in the context of SER tasks."
+        },
+        {
+          "name": "Relevance",
+          "score": 50.0,
+          "explanation": "The response is somewhat relevant but lacks focus on task-specific details, techniques, and their pros and cons, particularly in-depth discussion on feature-extraction techniques."
+        },
+        {
+          "name": "Depth",
+          "score": 18.33,
+          "explanation": "The response provides superficial information and lacks detailed insights into feature-extraction techniques and their application in SER tasks."
+        },
+        {
+          "name": "Conciseness",
+          "score": 56.67,
+          "explanation": "The answer is brief but fails to provide necessary detail and information, resulting in incompleteness and vagueness."
+        },
+        {
+          "name": "Engagement",
+          "score": 33.33,
+          "explanation": "The response fails to engage the reader due to its unclear, disjointed, and technically flawed presentation."
+        }
+      ],
+      "overall_score": 35.48
+    }
+  }
+}

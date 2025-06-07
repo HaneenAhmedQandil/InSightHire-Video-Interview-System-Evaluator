@@ -1,0 +1,35 @@
+{
+  "timestamp": "20250601_073324",
+  "video_file": "data/recordings/interview_20250601_073125.mp4",
+  "question": "Tell me about a time you faced a conflict in a team. How did you resolve it?",
+  "question_type": "HR",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.6671379307905833,
+    "emotion_distribution": {
+      "angry": 4,
+      "surprised": 2
+    },
+    "total_segments": 6,
+    "all_emotions": [
+      "angry",
+      "surprised",
+      "angry",
+      "angry",
+      "surprised",
+      "angry"
+    ],
+    "all_confidences": [
+      0.4638100564479828,
+      0.5855494737625122,
+      0.9944249987602234,
+      0.9679800271987915,
+      0.5015468597412109,
+      0.48951616883277893
+    ]
+  },
+  "transcript": "I am a student at the British University in Egypt, I'm a senior university student. For sure I have failed the conflict in teams. It was the big one was at my beginning at the university when I entered that. I have solved that by communicating with them and it was the problem with them. They were being laid for their lives and on communicating with them they managed their time and they have been in the communication and the message is that you can't gain through teams. And after this not the solution you can talk to your team leaders.",
+  "answer_evaluation": {
+    "error": "Values for the widget with key \"toggle_analysis_relevance_0\" cannot be set using `st.session_state`."
+  }
+}

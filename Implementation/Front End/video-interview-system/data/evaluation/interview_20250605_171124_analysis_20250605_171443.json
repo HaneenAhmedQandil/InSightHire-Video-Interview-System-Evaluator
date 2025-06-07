@@ -1,0 +1,57 @@
+{
+  "timestamp": "20250605_171443",
+  "video_file": "data/recordings/interview_20250605_171124.mp4",
+  "question": "What are your greatest strengths and how do they apply to this role?",
+  "question_type": "HR",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.7454394102096558,
+    "emotion_distribution": {
+      "angry": 6
+    },
+    "total_segments": 6,
+    "all_emotions": [
+      "angry",
+      "angry",
+      "angry",
+      "angry",
+      "angry",
+      "angry"
+    ],
+    "all_confidences": [
+      0.4629742503166199,
+      0.6398286819458008,
+      0.5367511510848999,
+      0.8989920616149902,
+      0.9427035450935364,
+      0.9913867712020874
+    ]
+  },
+  "transcript": "Okay. Ragn improve answer evaluation compared to using WNLM. Why is this doing so? WNLM like GRIPITI for example or any LM when you give it a question to evaluate an answer for example. And you want to search for many many thousands of documents. You will give it all these documents at once and there will be a large very large very very large context window and it may have a Sunit. But Ragn solves this problem by only retrieving the relevant document the top K relevant documents and only the documents will be given to the LM to evaluate the answer. Not the thousands of documents. So it is better.",
+  "grammar_analysis": {
+    "grammar_score": 85.0,
+    "local_errors": [],
+    "error_count": 0,
+    "word_count": 111,
+    "sentence_count": 8,
+    "key_strengths": [
+      "Use of complex sentence structures",
+      "Correct subject-verb agreement"
+    ],
+    "key_issues": [
+      "Inconsistent verb tense usage",
+      "Run-on sentences"
+    ],
+    "specific_suggestions": [
+      "Ensure consistent verb tense throughout the explanation.",
+      "Break down run-on sentences into shorter, clearer sentences."
+    ],
+    "interview_assessment": "The transcript demonstrates a good grasp of complex sentence structures and maintains correct subject-verb agreement. However, there are inconsistencies in verb tense usage and some sentences are run-on, which can affect clarity.",
+    "corrected_text": "Okay. Ragn improve answer evaluation compared to using WNLM. Why is this doing so? WNLM  GRIPITI for example or any LM when you give it a question to evaluate an answer for example. And you want to search for many many thousands of documents. You will give it all these documents at once and there will be a large very large very very large context window and it may have a Sunit. But Ragn solves this problem by only retrieving the relevant document the top K relevant documents and only the documents will be given to the LM to evaluate the answer. Not the thousands of documents. So it is better.",
+    "original_text": "Okay. Ragn improve answer evaluation compared to using WNLM. Why is this doing so? WNLM  GRIPITI for example or any LM when you give it a question to evaluate an answer for example. And you want to search for many many thousands of documents. You will give it all these documents at once and there will be a large very large very very large context window and it may have a Sunit. But Ragn solves this problem by only retrieving the relevant document the top K relevant documents and only the documents will be given to the LM to evaluate the answer. Not the thousands of documents. So it is better.",
+    "analysis_type": "hybrid",
+    "ai_used": true
+  },
+  "answer_evaluation": null,
+  "aggregate_evaluation": null
+}

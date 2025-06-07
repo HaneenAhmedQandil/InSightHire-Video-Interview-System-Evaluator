@@ -1,0 +1,18 @@
+{
+  "timestamp": "20250605_185535",
+  "video_file": "data/recordings/interview_q0_20250605_185453.mp4",
+  "question": "Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.",
+  "question_type": "Technical",
+  "emotion_analysis": {
+    "dominant_emotion": "unknown",
+    "avg_confidence": 0.0,
+    "emotion_distribution": {},
+    "total_segments": 0,
+    "all_emotions": [],
+    "all_confidences": []
+  },
+  "transcript": "",
+  "grammar_analysis": null,
+  "answer_evaluation": null,
+  "aggregate_evaluation": null
+}

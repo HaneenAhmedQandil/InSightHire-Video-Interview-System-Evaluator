@@ -1,0 +1,105 @@
+{
+  "timestamp": "20250605_173036",
+  "video_file": "data/recordings/interview_20250605_172828.mp4",
+  "question": "Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.",
+  "question_type": "Technical",
+  "emotion_analysis": {
+    "dominant_emotion": "disgust",
+    "avg_confidence": 0.629390761256218,
+    "emotion_distribution": {
+      "disgust": 3,
+      "surprised": 1,
+      "angry": 2
+    },
+    "total_segments": 6,
+    "all_emotions": [
+      "disgust",
+      "disgust",
+      "surprised",
+      "angry",
+      "angry",
+      "disgust"
+    ],
+    "all_confidences": [
+      0.6177974939346313,
+      0.7296692132949829,
+      0.5064383745193481,
+      0.7219294309616089,
+      0.4708773195743561,
+      0.7296327352523804
+    ]
+  },
+  "transcript": "I have a little audio. I think it should have a few pieces and steps first, like the documentation and all of these steps. A transformer basic efficiency commission can be used to extract the feature of this audio in an embedding or vector to make the model architect sheet like CNN or LHMD. It works with that. So the model will take these features and train the model on them and then it will protect the classes. Next classes, when",
+  "grammar_analysis": {
+    "grammar_score": 91.0,
+    "local_errors": [],
+    "error_count": 0,
+    "word_count": 79,
+    "sentence_count": 6,
+    "key_strengths": [
+      "Correct use of verb tenses",
+      "Appropriate subject-verb agreement"
+    ],
+    "key_issues": [
+      "Sentence structure complexity",
+      "Punctuation for clarity"
+    ],
+    "specific_suggestions": [
+      "Simplify sentence structure for clarity",
+      "Use punctuation to separate ideas more clearly"
+    ],
+    "interview_assessment": "The transcript demonstrates good use of verb tenses and subject-verb agreement, but could benefit from clearer sentence structure and punctuation to enhance readability.",
+    "corrected_text": "I have a little audio. I think it should have a few pieces and steps first,  the documentation and all of these steps. A transformer basic efficiency commission can be used to extract the feature of this audio in an embedding or vector to make the model architect sheet  CNN or LHMD. It works with that. So the model will take these features and train the model on them and then it will protect the classes. Next classes, when",
+    "original_text": "I have a little audio. I think it should have a few pieces and steps first,  the documentation and all of these steps. A transformer basic efficiency commission can be used to extract the feature of this audio in an embedding or vector to make the model architect sheet  CNN or LHMD. It works with that. So the model will take these features and train the model on them and then it will protect the classes. Next classes, when",
+    "analysis_type": "hybrid",
+    "ai_used": true
+  },
+  "answer_evaluation": {
+    "question": "Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.",
+    "type": "Technical",
+    "old_dataset_score": 0.0,
+    "rubric_score": 22.86,
+    "final_combined_score": 22.86,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Clarity",
+          "score": 20.0,
+          "explanation": "The response is disorganized, vague, and unclear, making it difficult to understand and follow due to incoherent phrasing."
+        },
+        {
+          "name": "Accuracy",
+          "score": 10.0,
+          "explanation": "The answer is imprecise and factually incorrect, using inaccurate terminology and concepts related to SER implementation."
+        },
+        {
+          "name": "Completeness",
+          "score": 15.0,
+          "explanation": "The response lacks essential steps, components, and details needed for a complete SER pipeline implementation."
+        },
+        {
+          "name": "Relevance",
+          "score": 30.0,
+          "explanation": "The response inadequately addresses the question, lacking relevance and accuracy, and fails to provide direct guidance on implementing a Transformer-based SER pipeline."
+        },
+        {
+          "name": "Depth",
+          "score": 10.0,
+          "explanation": "The response is superficial and lacks depth, failing to provide detailed insights into SER implementation."
+        },
+        {
+          "name": "Conciseness",
+          "score": 53.33,
+          "explanation": "The response is concise but lacks essential information, leading to insufficient substance and some verbosity."
+        },
+        {
+          "name": "Engagement",
+          "score": 21.67,
+          "explanation": "The response fails to engage the reader and promote understanding due to its incoherence and lack of detail."
+        }
+      ],
+      "overall_score": 22.86
+    }
+  },
+  "aggregate_evaluation": null
+}

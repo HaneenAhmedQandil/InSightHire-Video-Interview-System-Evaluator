@@ -1,0 +1,78 @@
+{
+  "timestamp": "20250602_021808",
+  "video_file": "data/recordings/interview_20250602_021615.mp4",
+  "question": "Given a large dataset of audio recordings, describe at least three feature-extraction techniques (e.g., Mel-spectrogram, log-Mel, MFCC) and discuss the pros and cons of each for a SER task.",
+  "question_type": "Technical",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.7336207628250122,
+    "emotion_distribution": {
+      "fearful": 1,
+      "angry": 3,
+      "surprised": 1
+    },
+    "total_segments": 5,
+    "all_emotions": [
+      "fearful",
+      "angry",
+      "angry",
+      "surprised",
+      "angry"
+    ],
+    "all_confidences": [
+      0.5567682981491089,
+      0.5274747610092163,
+      0.704663872718811,
+      0.879571795463562,
+      0.9996250867843628
+    ]
+  },
+  "transcript": "If I have a large data set for audio recordings, there are many feature reconstruction techniques that can be used by my respective spectrogram, log my specific program, add MFCC. Each of them has pros and cons. For example, MFCC can be used to extract special features and these features can be fed into the model later on to see the product classes. And these classes can be evaluated by using a variation matrix like loss function and accuracy, FIS score and record and all of these.",
+  "answer_evaluation": {
+    "question": "Given a large dataset of audio recordings, describe at least three feature-extraction techniques (e.g., Mel-spectrogram, log-Mel, MFCC) and discuss the pros and cons of each for a SER task.",
+    "type": "Technical",
+    "old_dataset_score": 0.0,
+    "rubric_score": 41.67,
+    "final_combined_score": 41.67,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Clarity",
+          "score": 46.67,
+          "explanation": "The answer is vague, lacks clear explanations, and uses confusing terminology such as 'feature reconstruction techniques'."
+        },
+        {
+          "name": "Accuracy",
+          "score": 36.67,
+          "explanation": "The answer contains factual inaccuracies and misinterpretations, including incorrect terms and descriptions of feature extraction techniques."
+        },
+        {
+          "name": "Completeness",
+          "score": 26.67,
+          "explanation": "The response inadequately addresses the pros and cons of each specified feature-extraction technique, omitting key points needed for a comprehensive evaluation."
+        },
+        {
+          "name": "Relevance",
+          "score": 56.67,
+          "explanation": "The answer attempts to address the question but lacks focus, veers off-topic, and fails to provide specific details on the listed techniques."
+        },
+        {
+          "name": "Depth",
+          "score": 21.67,
+          "explanation": "The answer is superficially constructed, lacking detailed insights into the techniques and feature-extraction methods."
+        },
+        {
+          "name": "Conciseness",
+          "score": 66.67,
+          "explanation": "The answer is brief, lacking substantive content and necessary detail, resulting in an overly simplistic response."
+        },
+        {
+          "name": "Engagement",
+          "score": 36.67,
+          "explanation": "The answer fails to engage the reader or promote understanding due to its unclear, incomplete, and overly technical nature without sufficient clarification."
+        }
+      ],
+      "overall_score": 41.67
+    }
+  }
+}

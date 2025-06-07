@@ -1,0 +1,79 @@
+{
+  "timestamp": "20250601_060837",
+  "video_file": "data/recordings/interview_20250601_060625.mp4",
+  "question": "Tell me about a time you faced a conflict in a team. How did you resolve it?",
+  "question_type": "HR",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.5353262543678283,
+    "emotion_distribution": {
+      "angry": 2,
+      "fearful": 1,
+      "disgust": 1,
+      "happy": 1
+    },
+    "total_segments": 5,
+    "all_emotions": [
+      "angry",
+      "angry",
+      "fearful",
+      "disgust",
+      "happy"
+    ],
+    "all_confidences": [
+      0.5300113558769226,
+      0.3544367253780365,
+      0.6718119382858276,
+      0.49428072571754456,
+      0.6260905265808105
+    ]
+  },
+  "transcript": "where me and my colleagues had a conflict in many opinions. As they were not to have attention to the sales such as me, we argue about too much of it. I want everything to be part of it, but they are not. They say that I made this and they don't make this and something like taking my own word for them. So at the end I communicated to them and go to the movie leader and tell her about it.",
+  "answer_evaluation": {
+    "question": "Tell me about a time you faced a conflict in a team. How did you resolve it?",
+    "type": "HR",
+    "old_dataset_score": 0.0,
+    "rubric_score": 47.14,
+    "final_combined_score": 47.14,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Relevance",
+          "score": 66.67,
+          "explanation": "The response acknowledges a team conflict but lacks sufficient detail on the resolution process."
+        },
+        {
+          "name": "Clarity",
+          "score": 43.33,
+          "explanation": "The answer is unclear, confusing, and grammatically problematic, making it difficult to understand and follow."
+        },
+        {
+          "name": "Professionalism",
+          "score": 53.33,
+          "explanation": "The tone is informal and lacks the professionalism expected in an HR interview."
+        },
+        {
+          "name": "Depth of Insight",
+          "score": 33.33,
+          "explanation": "The response lacks detailed insights or examples, providing minimal insight into the candidate's conflict resolution skills."
+        },
+        {
+          "name": "Positivity",
+          "score": 53.33,
+          "explanation": "The response is neutral and attempts positivity in framing and resolving the conflict, but lacks effective articulation."
+        },
+        {
+          "name": "Engagement",
+          "score": 36.67,
+          "explanation": "The reply fails to include elements that encourage further discussion or engagement with the interviewer."
+        },
+        {
+          "name": "Adaptability",
+          "score": 43.33,
+          "explanation": "The response lacks evidence of adaptability in addressing the conflict and accommodating the team's needs."
+        }
+      ],
+      "overall_score": 47.14
+    }
+  }
+}

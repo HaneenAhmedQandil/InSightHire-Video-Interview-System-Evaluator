@@ -1,0 +1,77 @@
+{
+  "timestamp": "20250601_055604",
+  "video_file": "data/recordings/interview_20250601_055407.mp4",
+  "question": "Describe a situation when you had to adapt quickly to a significant change at work or in school. What did you learn?",
+  "question_type": "HR",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.9221781015396118,
+    "emotion_distribution": {
+      "disgust": 1,
+      "angry": 4
+    },
+    "total_segments": 5,
+    "all_emotions": [
+      "disgust",
+      "angry",
+      "angry",
+      "angry",
+      "angry"
+    ],
+    "all_confidences": [
+      0.7749711871147156,
+      0.9775746464729309,
+      0.9806728363037109,
+      0.9387809038162231,
+      0.9388909339904785
+    ]
+  },
+  "transcript": "I was a part of team project where we had the right information to reach research presentation. Just today we thought to learn how I team later dropped the course new two questions issues and we lost access to some of the key points that served on their personal drive. I had to quickly step up to think on the leadership, reorganize the team and make sure we caught the river, a co-hash of uncompetition on time. I immediately coordinated that team meeting to assess what we still had, register, use the touch list on each member's transit and reach it out to the professor to a certain situation and request any additional support.",
+  "answer_evaluation": {
+    "question": "Describe a situation when you had to adapt quickly to a significant change at work or in school. What did you learn?",
+    "type": "HR",
+    "old_dataset_score": 0.0,
+    "rubric_score": 65.72,
+    "final_combined_score": 65.72,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Relevance",
+          "score": 76.67,
+          "explanation": "The response addresses the question by describing a situation where adaptation was necessary, though one explanation lacks clarity on specific details."
+        },
+        {
+          "name": "Clarity",
+          "score": 50.0,
+          "explanation": "The response is challenging to comprehend due to grammatical mistakes and unclear, awkward phrasing."
+        },
+        {
+          "name": "Professionalism",
+          "score": 66.67,
+          "explanation": "The tone is generally suitable for a professional setting, like an HR interview, but could be improved by clarifying some incoherent language for greater polish."
+        },
+        {
+          "name": "Depth of Insight",
+          "score": 53.33,
+          "explanation": "The response offers a general overview of actions taken but falls short in providing detailed insights, examples, or outcomes that effectively demonstrate learning or qualifications."
+        },
+        {
+          "name": "Positivity",
+          "score": 75.0,
+          "explanation": "The response maintains a positive tone by emphasizing problem-solving and teamwork while addressing challenges, including language issues."
+        },
+        {
+          "name": "Engagement",
+          "score": 61.67,
+          "explanation": "The response suggests potential for further discussion through hints at actions and teamwork but does not clearly invite engagement."
+        },
+        {
+          "name": "Adaptability",
+          "score": 76.67,
+          "explanation": "The answer demonstrates adaptability by showcasing leadership, quick problem-solving, and reorganization, while also seeking support, though clarity in execution may be lacking."
+        }
+      ],
+      "overall_score": 65.72
+    }
+  }
+}

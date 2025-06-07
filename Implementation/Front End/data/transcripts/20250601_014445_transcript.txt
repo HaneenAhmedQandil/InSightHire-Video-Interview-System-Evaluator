@@ -1,0 +1,8 @@
+Question: Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.
+
+Answer: To implement the transformer based on the speech and motion recognition pipeline, I want to follow these steps. Start with raw audio input. Typically don't read files and use library like Grosza or Tors audio. Extract feature, the second step is tracking feature. Either by logged mirror spectrograms or a pre-self-trained supervised modern life like what we have to work. P.D.s embedding enter transformer encoded and apply mean pooling use s, c, l, s token. Train using cross entropy loss and evaluate was accuracy of one score. Optionally apply that augmentation like respect augment or noise and direction to improve robustness.
+
+Dominant Emotion: disgust
+Answer Score: 42.9/100
+Emotion Score: 13.6/100
+Combined Score: 28.2/100

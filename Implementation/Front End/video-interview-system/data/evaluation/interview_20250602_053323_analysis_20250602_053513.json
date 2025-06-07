@@ -1,0 +1,91 @@
+{
+  "timestamp": "20250602_053513",
+  "video_file": "data/recordings/interview_20250602_053323.mp4",
+  "question": "Tell me about a time you faced a conflict in a team. How did you resolve it?",
+  "question_type": "HR",
+  "emotion_analysis": {
+    "dominant_emotion": "surprised",
+    "avg_confidence": 0.5861705899238586,
+    "emotion_distribution": {
+      "surprised": 4,
+      "calm": 1
+    },
+    "total_segments": 5,
+    "all_emotions": [
+      "surprised",
+      "surprised",
+      "calm",
+      "surprised",
+      "surprised"
+    ],
+    "all_confidences": [
+      0.5117780566215515,
+      0.28203901648521423,
+      0.3636544644832611,
+      0.997948169708252,
+      0.7754332423210144
+    ]
+  },
+  "transcript": "I am a student of the British University in Egypt. I am a senior. I am a senior. I have faced some conflict in my teens and my university.",
+  "grammar_analysis": {
+    "grammar_score": 100.0,
+    "local_errors": [],
+    "error_count": 0,
+    "word_count": 29,
+    "sentence_count": 4,
+    "suggestions": [],
+    "overall_assessment": "Excellent grammar! Score: 100.0/100",
+    "corrected_text": "I am a student of the British University in Egypt. I am a senior. I am a senior. I have faced some conflict in my teens and my university.",
+    "original_text": "I am a student of the British University in Egypt. I am a senior. I am a senior. I have faced some conflict in my teens and my university.",
+    "analysis_type": "local_only",
+    "ai_used": false
+  },
+  "answer_evaluation": {
+    "question": "Tell me about a time you faced a conflict in a team. How did you resolve it?",
+    "type": "HR",
+    "old_dataset_score": 0.0,
+    "rubric_score": 29.05,
+    "final_combined_score": 29.05,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Relevance",
+          "score": 26.67,
+          "explanation": "The response acknowledges conflict but fails to provide specific details or directly address the resolution of a team situation."
+        },
+        {
+          "name": "Clarity",
+          "score": 30.0,
+          "explanation": "The response is repetitive, lacks clarity, and fails to provide specific information about the question or the conflict and resolution."
+        },
+        {
+          "name": "Professionalism",
+          "score": 43.33,
+          "explanation": "The tone is neutral but lacks the professionalism, detail, and structure expected in an HR interview."
+        },
+        {
+          "name": "Depth of Insight",
+          "score": 13.33,
+          "explanation": "The response lacks detailed insights or examples that demonstrate conflict resolution skills."
+        },
+        {
+          "name": "Positivity",
+          "score": 40.0,
+          "explanation": "The response is neutral but fails to positively frame the challenges, conflict, or overall situation and outcome."
+        },
+        {
+          "name": "Engagement",
+          "score": 23.33,
+          "explanation": "The answer does not invite further discussion or engage the interviewer with relevant details."
+        },
+        {
+          "name": "Adaptability",
+          "score": 26.67,
+          "explanation": "The response fails to demonstrate adaptability in skills and experiences or how they were applied to resolve the conflict effectively."
+        }
+      ],
+      "overall_score": 29.05
+    }
+  },
+  "aggregate_evaluation": null
+}

@@ -1,0 +1,88 @@
+{
+  "question": "How does Retrieval-Augmented Generation (RAG) improve answer evaluation compared to using a vanilla LLM? Illustrate with a pseudo-code or high-level workflow.",
+  "video_file": "data/recordings/interview_20250601_011409.mp4",
+  "transcript": "I will go ahead and talk about the generation and hands answer evaluation by grounding the model's response and relevant external knowledge rather than relying slowly on pre-trend parameters. Let's emphasize the fact that the factor of accuracy, transparency and reliability, particularly in knowledge intensive tasks. There are three differences. Vanilla and answer will be likely on living knowledge from trained data which can be outdated or incomplete. Large models are not retrieved information from knowledge of needs, hearing and hearing alone for context, aware and source supported responses. The high level workflow Vanilla and M with the input pass through LM and then the output. There is a great sense of the answer that is from internal parameters. Rags over work flow is compressed input into a key reflected. Fetched the top key most relevant documents from an external conference, the answer using both the original input and the retrieved documents. And core based on such grounding in retrieved documents. Benefits and the answer evaluation grounding easier to trace responses to retrieved documents",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.8207527182318948,
+    "emotion_distribution": {
+      "angry": 10,
+      "surprised": 1
+    },
+    "total_segments": 11,
+    "all_emotions": [
+      "angry",
+      "angry",
+      "angry",
+      "angry",
+      "angry",
+      "angry",
+      "angry",
+      "surprised",
+      "angry",
+      "angry",
+      "angry"
+    ],
+    "all_confidences": [
+      0.9186490178108215,
+      0.9995020031929016,
+      0.49207115173339844,
+      0.7669437527656555,
+      0.8244964480400085,
+      0.9523601531982422,
+      0.9977681040763855,
+      0.487617552280426,
+      0.9671422243118286,
+      0.9484346508979797,
+      0.6732948422431946
+    ]
+  },
+  "answer_evaluation": {
+    "question": "How does Retrieval-Augmented Generation (RAG) improve answer evaluation compared to using a vanilla LLM? Illustrate with a pseudo-code or high-level workflow.",
+    "type": "Technical",
+    "old_dataset_score": 0.0,
+    "rubric_score": 55.71,
+    "final_combined_score": 55.71,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Clarity",
+          "score": 60,
+          "explanation": "The response is somewhat clear but contains convoluted phrasing and grammatical errors that hinder understanding."
+        },
+        {
+          "name": "Accuracy",
+          "score": 50,
+          "explanation": "The explanation touches on key concepts but contains inaccuracies and lacks precise definitions of RAG and vanilla LLM."
+        },
+        {
+          "name": "Completeness",
+          "score": 55,
+          "explanation": "The answer attempts to address the question but misses key points about how RAG works compared to vanilla LLMs."
+        },
+        {
+          "name": "Relevance",
+          "score": 70,
+          "explanation": "The response is relevant to the question but occasionally deviates from the main topic with unclear statements."
+        },
+        {
+          "name": "Depth",
+          "score": 65,
+          "explanation": "The answer provides some insights but lacks detailed exploration of the differences and workflow of RAG and LLMs."
+        },
+        {
+          "name": "Conciseness",
+          "score": 40,
+          "explanation": "The response is verbose with unnecessary repetition and lacks focus, reducing overall conciseness."
+        },
+        {
+          "name": "Engagement",
+          "score": 50,
+          "explanation": "The answer does not maintain interest due to its unclear structure and lack of engaging content."
+        }
+      ],
+      "overall_score": 55.71
+    }
+  },
+  "timestamp": "interview_20250601_011409"
+}

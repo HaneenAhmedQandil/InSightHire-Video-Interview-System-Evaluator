@@ -1,0 +1,83 @@
+{
+  "question": "Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.",
+  "video_file": "data/recordings/interview_20250601_014101.mp4",
+  "transcript": "Audio quality too poor for reliable transcription",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.8505007922649384,
+    "emotion_distribution": {
+      "fearful": 1,
+      "angry": 4,
+      "disgust": 1
+    },
+    "total_segments": 6,
+    "all_emotions": [
+      "fearful",
+      "angry",
+      "angry",
+      "disgust",
+      "angry",
+      "angry"
+    ],
+    "all_confidences": [
+      0.6683641076087952,
+      0.7681915163993835,
+      0.7860233187675476,
+      0.9254652857780457,
+      0.9883555173873901,
+      0.966605007648468
+    ]
+  },
+  "emotion_score": 11.907011091709137,
+  "answer_evaluation": {
+    "question": "Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.",
+    "type": "Technical",
+    "old_dataset_score": 0.0,
+    "rubric_score": 15.71,
+    "final_combined_score": 15.71,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Clarity",
+          "score": 10,
+          "explanation": "The response is unclear and does not address the question directly."
+        },
+        {
+          "name": "Accuracy",
+          "score": 10,
+          "explanation": "The response is not factually correct or relevant to implementing a SER pipeline."
+        },
+        {
+          "name": "Completeness",
+          "score": 5,
+          "explanation": "The response lacks any detailed implementation steps for the SER pipeline."
+        },
+        {
+          "name": "Relevance",
+          "score": 20,
+          "explanation": "The response mentions audio but does not relate to the emotion recognition pipeline."
+        },
+        {
+          "name": "Depth",
+          "score": 5,
+          "explanation": "The response provides no depth or insight into the SER pipeline process."
+        },
+        {
+          "name": "Conciseness",
+          "score": 50,
+          "explanation": "The response is brief but lacks substance needed for the task."
+        },
+        {
+          "name": "Engagement",
+          "score": 10,
+          "explanation": "The response fails to engage or interest the reader due to lack of content."
+        }
+      ],
+      "overall_score": 15.71
+    }
+  },
+  "answer_score": 15.71,
+  "combined_score": 13.808505545854569,
+  "timestamp": "20250601_014101",
+  "duration": 60
+}

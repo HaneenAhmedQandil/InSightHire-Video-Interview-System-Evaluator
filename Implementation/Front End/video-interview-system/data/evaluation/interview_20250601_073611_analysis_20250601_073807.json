@@ -1,0 +1,34 @@
+{
+  "timestamp": "20250601_073807",
+  "video_file": "data/recordings/interview_20250601_073611.mp4",
+  "question": "How does Retrieval-Augmented Generation (RAG) improve answer evaluation compared to using a vanilla LLM? Illustrate with a pseudo-code or high-level workflow.",
+  "question_type": "Technical",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.7251401305198669,
+    "emotion_distribution": {
+      "angry": 3,
+      "surprised": 1,
+      "disgust": 1
+    },
+    "total_segments": 5,
+    "all_emotions": [
+      "angry",
+      "surprised",
+      "angry",
+      "angry",
+      "disgust"
+    ],
+    "all_confidences": [
+      0.8788145780563354,
+      0.740188717842102,
+      0.6160246133804321,
+      0.7952036261558533,
+      0.5954691171646118
+    ]
+  },
+  "transcript": "With your augmented generation can improve and serve your vision compared to using a Venelial M as if you are using a Venelial M and search and buy or throw a whole document of thousands of words or documents, you will feed all these thousands documents into the LLM but Ragn didn't do this, it only says for the relevant point of the wanted documents and these three points for example, top k points are fed into LLM",
+  "answer_evaluation": {
+    "error": "Values for the widget with key \"toggle_analysis_clarity_0\" cannot be set using `st.session_state`."
+  }
+}

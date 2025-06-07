@@ -1,0 +1,76 @@
+{
+  "timestamp": "20250602_002708",
+  "video_file": "data/recordings/interview_20250602_002539.mp4",
+  "question": "How does Retrieval-Augmented Generation (RAG) improve answer evaluation compared to using a vanilla LLM? Illustrate with a pseudo-code or high-level workflow.",
+  "question_type": "Technical",
+  "emotion_analysis": {
+    "dominant_emotion": "sad",
+    "avg_confidence": 1.0,
+    "emotion_distribution": {
+      "sad": 5
+    },
+    "total_segments": 5,
+    "all_emotions": [
+      "sad",
+      "sad",
+      "sad",
+      "sad",
+      "sad"
+    ],
+    "all_confidences": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "transcript": "you you",
+  "answer_evaluation": {
+    "question": "How does Retrieval-Augmented Generation (RAG) improve answer evaluation compared to using a vanilla LLM? Illustrate with a pseudo-code or high-level workflow.",
+    "type": "Technical",
+    "old_dataset_score": 0.0,
+    "rubric_score": 0.0,
+    "final_combined_score": 0.0,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Clarity",
+          "score": 0.0,
+          "explanation": "No substantive answer provided."
+        },
+        {
+          "name": "Accuracy",
+          "score": 0.0,
+          "explanation": "No substantive answer provided."
+        },
+        {
+          "name": "Completeness",
+          "score": 0.0,
+          "explanation": "No substantive answer provided."
+        },
+        {
+          "name": "Relevance",
+          "score": 0.0,
+          "explanation": "No substantive answer provided."
+        },
+        {
+          "name": "Depth",
+          "score": 0.0,
+          "explanation": "No substantive answer provided."
+        },
+        {
+          "name": "Conciseness",
+          "score": 0.0,
+          "explanation": "No substantive answer provided."
+        },
+        {
+          "name": "Engagement",
+          "score": 0.0,
+          "explanation": "No substantive answer provided."
+        }
+      ],
+      "overall_score": 0.0
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "timestamp": "20250602_015604",
+  "video_file": "data/recordings/interview_20250602_015348.mp4",
+  "question": "Suppose you have to fine-tune a pre-trained wav2vec 2.0 model on a new emotional‐speech dataset. Which steps would you follow (data preprocessing, training loop, hyperparameter tuning), and why?",
+  "question_type": "Technical",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.6676900207996368,
+    "emotion_distribution": {
+      "angry": 2,
+      "surprised": 1,
+      "fearful": 1,
+      "disgust": 1
+    },
+    "total_segments": 5,
+    "all_emotions": [
+      "angry",
+      "angry",
+      "surprised",
+      "fearful",
+      "disgust"
+    ],
+    "all_confidences": [
+      0.7990273833274841,
+      0.846743106842041,
+      0.4659690260887146,
+      0.7282496690750122,
+      0.49846091866493225
+    ]
+  },
+  "transcript": "To find a single page train to web to web model a new emotional speech data set, web to web is used to extract or convert the web form of the audio and to vectors to make the models be able to train on the vectors or as known as embeddings, let include the features that come in the features to be able to train on them and the data classes. So, data for people can be data augmentation techniques that are shafted and something like that can be",
+  "answer_evaluation": {
+    "question": "Suppose you have to fine-tune a pre-trained wav2vec 2.0 model on a new emotional‐speech dataset. Which steps would you follow (data preprocessing, training loop, hyperparameter tuning), and why?",
+    "type": "Technical",
+    "old_dataset_score": 0.0,
+    "rubric_score": 22.86,
+    "final_combined_score": 22.86,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Clarity",
+          "score": 23.33,
+          "explanation": "The answer is difficult to understand due to poor structure, grammatical errors, and unclear phrasing."
+        },
+        {
+          "name": "Accuracy",
+          "score": 13.33,
+          "explanation": "The answer contains factual inaccuracies and lacks precision in its description of the fine-tuning process and the application of the wav2vec 2.0 model."
+        },
+        {
+          "name": "Completeness",
+          "score": 13.33,
+          "explanation": "The explanation is missing crucial details and elaboration on key steps such as data preprocessing, training loop, and hyperparameter tuning."
+        },
+        {
+          "name": "Relevance",
+          "score": 33.33,
+          "explanation": "The answer is vague and does not directly address the specific steps required to fine-tune the model."
+        },
+        {
+          "name": "Depth",
+          "score": 11.67,
+          "explanation": "The answer offers superficial information and lacks detailed insights into the steps and process of fine-tuning a model."
+        },
+        {
+          "name": "Conciseness",
+          "score": 43.33,
+          "explanation": "The response is concise but insufficiently informative, leading to inaccuracies and verbosity in unclear areas."
+        },
+        {
+          "name": "Engagement",
+          "score": 21.67,
+          "explanation": "The answer is unengaging and difficult to follow due to its incoherent structure and lack of clarity."
+        }
+      ],
+      "overall_score": 22.86
+    }
+  }
+}

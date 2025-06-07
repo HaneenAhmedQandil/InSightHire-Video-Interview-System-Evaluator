@@ -1,0 +1,80 @@
+{
+  "timestamp": "20250601_064407",
+  "video_file": "data/recordings/interview_20250601_064157.mp4",
+  "question": "Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.",
+  "question_type": "Technical",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.7308163940906525,
+    "emotion_distribution": {
+      "sad": 1,
+      "angry": 4,
+      "surprised": 1
+    },
+    "total_segments": 6,
+    "all_emotions": [
+      "sad",
+      "angry",
+      "angry",
+      "angry",
+      "surprised",
+      "angry"
+    ],
+    "all_confidences": [
+      0.6032851934432983,
+      0.8559240102767944,
+      0.8686045408248901,
+      0.44567590951919556,
+      0.768469512462616,
+      0.8429391980171204
+    ]
+  },
+  "transcript": "I'll implement a transformer. This feature emotional recognition transformer can be used in extracting the features of the sound before feeding the feature to the network. So one thing can be used as MFCC. The feature can be extracted and filled in an embedding. And this embedding can be then as fast to the network like CNN, LSTM or LSTM, two three in on that and extract or pressify the third classes. And then the results are either with it using a confusion matrix and classification report",
+  "answer_evaluation": {
+    "question": "Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.",
+    "type": "Technical",
+    "old_dataset_score": 0.0,
+    "rubric_score": 37.62,
+    "final_combined_score": 37.62,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Clarity",
+          "score": 36.67,
+          "explanation": "The answer is difficult to understand due to unclear phrasing, incomplete sentences, and grammatical errors."
+        },
+        {
+          "name": "Accuracy",
+          "score": 26.67,
+          "explanation": "The technical explanation of the implementation process is vague, inaccurate, and misuses terms, failing to correctly describe transformer-based SER pipelines."
+        },
+        {
+          "name": "Completeness",
+          "score": 30.0,
+          "explanation": "The response lacks key components and steps of the SER pipeline, including data preprocessing, model training, and end-to-end implementation details."
+        },
+        {
+          "name": "Relevance",
+          "score": 53.33,
+          "explanation": "The answer attempts to address the question but lacks specificity and critical details about the SER pipeline and Transformer-based implementation."
+        },
+        {
+          "name": "Depth",
+          "score": 23.33,
+          "explanation": "The answer is superficial, lacking detailed insights into the technical workings and implementation process of SER."
+        },
+        {
+          "name": "Conciseness",
+          "score": 56.67,
+          "explanation": "The response is too brief to effectively convey essential information and necessary details."
+        },
+        {
+          "name": "Engagement",
+          "score": 36.67,
+          "explanation": "The response fails to engage the reader due to its confusing writing style and lack of coherence and depth."
+        }
+      ],
+      "overall_score": 37.62
+    }
+  }
+}

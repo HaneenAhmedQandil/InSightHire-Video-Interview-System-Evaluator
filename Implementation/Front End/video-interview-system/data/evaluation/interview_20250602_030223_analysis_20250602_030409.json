@@ -1,0 +1,78 @@
+{
+  "timestamp": "20250602_030409",
+  "video_file": "data/recordings/interview_20250602_030223.mp4",
+  "question": "Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.",
+  "question_type": "Technical",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.602113950252533,
+    "emotion_distribution": {
+      "fearful": 1,
+      "angry": 3,
+      "disgust": 1
+    },
+    "total_segments": 5,
+    "all_emotions": [
+      "fearful",
+      "angry",
+      "disgust",
+      "angry",
+      "angry"
+    ],
+    "all_confidences": [
+      0.7434036731719971,
+      0.46319350600242615,
+      0.5263645648956299,
+      0.8341190218925476,
+      0.4434889853000641
+    ]
+  },
+  "transcript": "If I want to implement transformer-based speech motion recognition from end to end, it is used basically to see two extract features, like MFCC, before going to or feeding the, sorry, sorry, the model with these features, it will be extracted by transformer-based, speech motion recognition, like MFCC, and the twill generate embeddings of these features, and these embeddings will be fed into the architecture, model architecture, and the model architecture will classify the classes, and these classes will be,",
+  "answer_evaluation": {
+    "question": "Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.",
+    "type": "Technical",
+    "old_dataset_score": 0.0,
+    "rubric_score": 35.48,
+    "final_combined_score": 35.48,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Clarity",
+          "score": 36.67,
+          "explanation": "The answer is disjointed, fragmented, and confusing, with repeated interruptions and a lack of coherence, making it difficult to understand."
+        },
+        {
+          "name": "Accuracy",
+          "score": 26.67,
+          "explanation": "The response inaccurately refers to 'speech motion recognition' instead of 'speech emotion recognition' and lacks factual precision about transformers."
+        },
+        {
+          "name": "Completeness",
+          "score": 23.33,
+          "explanation": "The answer lacks comprehensive coverage of all essential steps and details for implementing a Transformer-based SER pipeline from raw audio input to predicted labels."
+        },
+        {
+          "name": "Relevance",
+          "score": 50.0,
+          "explanation": "The answer attempts to address the question but becomes unfocused due to errors, extraneous words, and deviation from the main topic."
+        },
+        {
+          "name": "Depth",
+          "score": 26.67,
+          "explanation": "The response lacks detailed insights into the process, key components, and implementation using transformers, remaining superficial."
+        },
+        {
+          "name": "Conciseness",
+          "score": 50.0,
+          "explanation": "The brief answer is hindered by unnecessary repetitions and filler words that detract from its conciseness."
+        },
+        {
+          "name": "Engagement",
+          "score": 35.0,
+          "explanation": "The answer is difficult to engage with and understand due to its fragmented nature, lack of coherence, clarity, and detail, resulting in a failure to maintain interest."
+        }
+      ],
+      "overall_score": 35.48
+    }
+  }
+}

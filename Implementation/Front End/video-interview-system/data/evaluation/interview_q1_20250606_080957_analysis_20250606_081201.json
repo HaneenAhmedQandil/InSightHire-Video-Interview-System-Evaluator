@@ -1,0 +1,132 @@
+{
+  "timestamp": "20250606_081201",
+  "video_file": "data/recordings/interview_q1_20250606_080957.mp4",
+  "question": "Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.",
+  "question_type": "Technical",
+  "emotion_analysis": {
+    "dominant_emotion": "sad",
+    "avg_confidence": 0.653229683637619,
+    "emotion_distribution": {
+      "sad": 3,
+      "calm": 1,
+      "fearful": 1
+    },
+    "total_segments": 5,
+    "all_emotions": [
+      "sad",
+      "sad",
+      "calm",
+      "fearful",
+      "sad"
+    ],
+    "all_confidences": [
+      0.49540743231773376,
+      0.6812500953674316,
+      0.8849607706069946,
+      0.7955797910690308,
+      0.4089503288269043
+    ]
+  },
+  "transcript": "so far so far a transformable is as a pipeline I always start with like the audio maybe you load it somehow then I think you use a transformable model maybe you have to back or something like birth for audio you put the audio into it and it gives some features I guess then you may be use a crucifier to get the emotions training is done like normal you just to train it and I think you need that is it with emotions yeah and then good productions",
+  "grammar_analysis": {
+    "grammar_score": 72.0,
+    "local_errors": [
+      {
+        "category": "CASING",
+        "rule_id": "UPPERCASE_SENTENCE_START",
+        "message": "This sentence does not start with an uppercase letter.",
+        "offset": 0,
+        "length": 3,
+        "context": "far  far a transformable is as a pipeline I...",
+        "suggestions": [
+          "Far"
+        ],
+        "error_text": "far",
+        "severity": "low"
+      },
+      {
+        "category": "GRAMMAR",
+        "rule_id": "DT_JJ_NO_NOUN",
+        "message": "A noun may be missing here.",
+        "offset": 9,
+        "length": 15,
+        "context": "far  far a transformable is as a pipeline I always start with  t...",
+        "suggestions": [],
+        "error_text": "a transformable",
+        "severity": "medium"
+      }
+    ],
+    "error_count": 2,
+    "filler_count": 5,
+    "filler_rate": 5.6,
+    "word_count": 85,
+    "original_word_count": 90,
+    "sentence_count": 1,
+    "key_strengths": [
+      "Natural speech patterns",
+      "Use of conjunctions"
+    ],
+    "key_issues": [
+      "Sentence fragments",
+      "Lack of punctuation for clarity"
+    ],
+    "specific_suggestions": [
+      "Use complete sentences to improve clarity.",
+      "Add punctuation to separate ideas and improve readability."
+    ],
+    "interview_assessment": "The transcript reflects natural speech patterns but lacks clarity due to sentence fragments and insufficient punctuation.",
+    "corrected_text": "far  far a transformable is as a pipeline I always start with  the audio maybe you load it somehow then I think you use a transformable model maybe you have to back or something  birth for audio you put the audio into it and it gives some features I guess then you may be use a crucifier to get the emotions training is done  normal you just to train it and I think you need that is it with emotions yeah and then good productions",
+    "original_text": "so far so far a transformable is as a pipeline I always start with like the audio maybe you load it somehow then I think you use a transformable model maybe you have to back or something like birth for audio you put the audio into it and it gives some features I guess then you may be use a crucifier to get the emotions training is done like normal you just to train it and I think you need that is it with emotions yeah and then good productions",
+    "cleaned_text": "far  far a transformable is as a pipeline I always start with  the audio maybe you load it somehow then I think you use a transformable model maybe you have to back or something  birth for audio you put the audio into it and it gives some features I guess then you may be use a crucifier to get the emotions training is done  normal you just to train it and I think you need that is it with emotions yeah and then good productions",
+    "analysis_type": "hybrid",
+    "ai_used": true
+  },
+  "answer_evaluation": {
+    "question": "Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.",
+    "type": "Technical",
+    "old_dataset_score": 0.0,
+    "rubric_score": 26.67,
+    "final_combined_score": 26.67,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Clarity",
+          "score": 26.67,
+          "explanation": "The response is difficult to understand due to disorganized thoughts, vague language, and lack of clear structure."
+        },
+        {
+          "name": "Accuracy",
+          "score": 16.67,
+          "explanation": "The answer is factually incorrect, contains several inaccuracies, and lacks precision in describing a Transformer-based SER pipeline."
+        },
+        {
+          "name": "Completeness",
+          "score": 16.67,
+          "explanation": "The response lacks essential steps and components, including preprocessing and model training specifics, necessary for a comprehensive SER pipeline implementation."
+        },
+        {
+          "name": "Relevance",
+          "score": 40.0,
+          "explanation": "The answer attempts to address the question but does so inadequately, straying off-topic with unclear and irrelevant references."
+        },
+        {
+          "name": "Depth",
+          "score": 13.33,
+          "explanation": "The response is superficial, lacking depth and detailed insights into the SER pipeline and implementation processes."
+        },
+        {
+          "name": "Conciseness",
+          "score": 50.0,
+          "explanation": "The response is brief, but its terseness leads to a lack of focus, coherence, and necessary information, diminishing its effectiveness."
+        },
+        {
+          "name": "Engagement",
+          "score": 23.33,
+          "explanation": "The response fails to engage the reader or maintain interest due to its unclear, disjointed, and incoherent presentation."
+        }
+      ],
+      "overall_score": 26.67
+    }
+  },
+  "aggregate_evaluation": null
+}

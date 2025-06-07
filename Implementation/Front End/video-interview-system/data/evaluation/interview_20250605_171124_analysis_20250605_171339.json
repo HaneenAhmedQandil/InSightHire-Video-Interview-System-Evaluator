@@ -1,0 +1,59 @@
+{
+  "timestamp": "20250605_171339",
+  "video_file": "data/recordings/interview_20250605_171124.mp4",
+  "question": "How does Retrieval-Augmented Generation (RAG) improve answer evaluation compared to using a vanilla LLM? Illustrate with a pseudo-code or high-level workflow.",
+  "question_type": "Technical",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.7048894713322321,
+    "emotion_distribution": {
+      "angry": 6
+    },
+    "total_segments": 6,
+    "all_emotions": [
+      "angry",
+      "angry",
+      "angry",
+      "angry",
+      "angry",
+      "angry"
+    ],
+    "all_confidences": [
+      0.43756118416786194,
+      0.6460216641426086,
+      0.5797579884529114,
+      0.8153305053710938,
+      0.8937526941299438,
+      0.8569127917289734
+    ]
+  },
+  "transcript": "Okay. Ragn improve answer evaluation compared to using WNLM. Why is this doing so? WNLM like GRIPITI for example or any LM when you give it a question to evaluate an answer for example. And you want to search for many many thousands of documents. You will give it all these documents at once and there will be a large very large very very large context window and it may have a Sunit. But Ragn solves this problem by only retrieving the relevant document the top K relevant documents and only the documents will be given to the LM to evaluate the answer. Not the thousands of documents. So it is better.",
+  "grammar_analysis": {
+    "grammar_score": 85.0,
+    "local_errors": [],
+    "error_count": 0,
+    "word_count": 111,
+    "sentence_count": 8,
+    "key_strengths": [
+      "Use of complex sentence structures",
+      "Correct subject-verb agreement"
+    ],
+    "key_issues": [
+      "Inconsistent verb tense usage",
+      "Run-on sentences",
+      "Lack of punctuation for clarity"
+    ],
+    "specific_suggestions": [
+      "Ensure consistent verb tense throughout the explanation.",
+      "Break down run-on sentences into shorter, clearer sentences.",
+      "Add punctuation to separate ideas and improve clarity."
+    ],
+    "interview_assessment": "The transcript demonstrates a good grasp of complex sentence structures and subject-verb agreement, but suffers from inconsistent verb tense usage and run-on sentences that could benefit from additional punctuation for clarity.",
+    "corrected_text": "Okay. Ragn improve answer evaluation compared to using WNLM. Why is this doing so? WNLM  GRIPITI for example or any LM when you give it a question to evaluate an answer for example. And you want to search for many many thousands of documents. You will give it all these documents at once and there will be a large very large very very large context window and it may have a Sunit. But Ragn solves this problem by only retrieving the relevant document the top K relevant documents and only the documents will be given to the LM to evaluate the answer. Not the thousands of documents. So it is better.",
+    "original_text": "Okay. Ragn improve answer evaluation compared to using WNLM. Why is this doing so? WNLM  GRIPITI for example or any LM when you give it a question to evaluate an answer for example. And you want to search for many many thousands of documents. You will give it all these documents at once and there will be a large very large very very large context window and it may have a Sunit. But Ragn solves this problem by only retrieving the relevant document the top K relevant documents and only the documents will be given to the LM to evaluate the answer. Not the thousands of documents. So it is better.",
+    "analysis_type": "hybrid",
+    "ai_used": true
+  },
+  "answer_evaluation": null,
+  "aggregate_evaluation": null
+}

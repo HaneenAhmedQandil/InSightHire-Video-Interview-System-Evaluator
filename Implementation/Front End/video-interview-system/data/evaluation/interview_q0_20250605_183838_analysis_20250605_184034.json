@@ -1,0 +1,99 @@
+{
+  "timestamp": "20250605_184034",
+  "video_file": "data/recordings/interview_q0_20250605_183838.mp4",
+  "question": "Tell me about a time you faced a conflict in a team. How did you resolve it?",
+  "question_type": "HR",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.6266268690427145,
+    "emotion_distribution": {
+      "angry": 3
+    },
+    "total_segments": 3,
+    "all_emotions": [
+      "angry",
+      "angry",
+      "angry"
+    ],
+    "all_confidences": [
+      0.5523967742919922,
+      0.9442230463027954,
+      0.3832607865333557
+    ]
+  },
+  "transcript": "I think this time was at my start at the university. I am Haleen Ahmed. As student in the British University in Egypt, I am in my senior year. So at my first student in the university, I have a contract in a team as we weren't know each other and it was resolved by that I communicated with them and the mother leaders.",
+  "grammar_analysis": {
+    "grammar_score": 82.0,
+    "local_errors": [],
+    "error_count": 0,
+    "word_count": 64,
+    "sentence_count": 4,
+    "key_strengths": [
+      "Use of present tense for current situations",
+      "Clear sentence structure in some parts"
+    ],
+    "key_issues": [
+      "Incorrect verb tense usage",
+      "Subject-verb agreement issues",
+      "Sentence fragments"
+    ],
+    "specific_suggestions": [
+      "Use past tense for past events, e.g., 'I thought this time was at my start at the university.'",
+      "Ensure subject-verb agreement, e.g., 'we didn't know each other.'",
+      "Clarify sentence structure, e.g., 'At my first year as a student in the university, I had a contract with a team.'"
+    ],
+    "interview_assessment": "The transcript demonstrates some understanding of basic grammar rules, but there are notable issues with verb tense consistency and subject-verb agreement that affect clarity.",
+    "corrected_text": "I think this time was at my start at the university. I am Haleen Ahmed. As student in the British University in Egypt, I am in my senior year. So at my first student in the university, I have a contract in a team as we weren't know each other and it was resolved by that I communicated with them and the mother leaders.",
+    "original_text": "I think this time was at my start at the university. I am Haleen Ahmed. As student in the British University in Egypt, I am in my senior year. So at my first student in the university, I have a contract in a team as we weren't know each other and it was resolved by that I communicated with them and the mother leaders.",
+    "analysis_type": "hybrid",
+    "ai_used": true
+  },
+  "answer_evaluation": {
+    "question": "Tell me about a time you faced a conflict in a team. How did you resolve it?",
+    "type": "HR",
+    "old_dataset_score": 0.0,
+    "rubric_score": 49.52,
+    "final_combined_score": 49.52,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Relevance",
+          "score": 60.0,
+          "explanation": "The response acknowledges a team conflict but does not provide specific details about how it was resolved."
+        },
+        {
+          "name": "Clarity",
+          "score": 43.33,
+          "explanation": "The response is unclear, somewhat confusing, and contains grammatical errors that hinder understanding."
+        },
+        {
+          "name": "Professionalism",
+          "score": 63.33,
+          "explanation": "The tone is generally professional but lacks coherence and structure, with informal language affecting overall professionalism."
+        },
+        {
+          "name": "Depth of Insight",
+          "score": 33.33,
+          "explanation": "The response offers minimal insight into conflict resolution, lacking specific examples and details of strategies or approaches used."
+        },
+        {
+          "name": "Positivity",
+          "score": 63.33,
+          "explanation": "The response effectively maintains a positive tone by focusing on communication as a resolution strategy, highlighting lessons learned from the experience despite the conflict."
+        },
+        {
+          "name": "Engagement",
+          "score": 36.67,
+          "explanation": "The response fails to actively invite further discussion or effectively engage the interviewer."
+        },
+        {
+          "name": "Adaptability",
+          "score": 46.67,
+          "explanation": "The response lacks a clear demonstration of adaptability in applying skills to resolve the conflict, with only a brief mention of communication without depth."
+        }
+      ],
+      "overall_score": 49.52
+    }
+  },
+  "aggregate_evaluation": null
+}

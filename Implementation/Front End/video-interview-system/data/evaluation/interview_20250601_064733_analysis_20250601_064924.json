@@ -1,0 +1,76 @@
+{
+  "timestamp": "20250601_064924",
+  "video_file": "data/recordings/interview_20250601_064733.mp4",
+  "question": "Tell me about a time you faced a conflict in a team. How did you resolve it?",
+  "question_type": "HR",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.6979219377040863,
+    "emotion_distribution": {
+      "angry": 5
+    },
+    "total_segments": 5,
+    "all_emotions": [
+      "angry",
+      "angry",
+      "angry",
+      "angry",
+      "angry"
+    ],
+    "all_confidences": [
+      0.6947186589241028,
+      0.7202664613723755,
+      0.8505007028579712,
+      0.39084747433662415,
+      0.8332763910293579
+    ]
+  },
+  "transcript": "I'm a student at the British University in Egypt and I'm a senior AI student. And again, of my life at university, we're sure I have raised a conflict in the team. And at the end, it was a very good and the problem was that we were being lived in the line. So I have communicated them and we managed the time between us. What I have done is from this and to learn how to communicate and convince others with your opinion. Even if you are honest in the same speech. And if they are honest and honest, you can talk.",
+  "answer_evaluation": {
+    "question": "Tell me about a time you faced a conflict in a team. How did you resolve it?",
+    "type": "HR",
+    "old_dataset_score": 0.0,
+    "rubric_score": 50.71,
+    "final_combined_score": 50.71,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Relevance",
+          "score": 60.0,
+          "explanation": "The response attempts to address the team conflict and its resolution but lacks specific details about the situation and its resolution."
+        },
+        {
+          "name": "Clarity",
+          "score": 43.33,
+          "explanation": "The response is unclear and difficult to understand due to vague language, sentence structure, and grammatical errors."
+        },
+        {
+          "name": "Professionalism",
+          "score": 56.67,
+          "explanation": "The tone is suitable for an interview but lacks the necessary professionalism, coherence, and polish expected in an HR setting."
+        },
+        {
+          "name": "Depth of Insight",
+          "score": 33.33,
+          "explanation": "The response lacks detailed insights and specific examples, making it difficult to assess the candidate's qualifications and ability in conflict resolution."
+        },
+        {
+          "name": "Positivity",
+          "score": 71.67,
+          "explanation": "The response is framed positively, emphasizing communication, resolution, and learning."
+        },
+        {
+          "name": "Engagement",
+          "score": 38.33,
+          "explanation": "The response fails to invite further discussion or effectively engage the interviewer."
+        },
+        {
+          "name": "Adaptability",
+          "score": 51.67,
+          "explanation": "The response indicates adaptability through mentioned skills but lacks specific, in-depth examples of applying them to resolve conflicts effectively."
+        }
+      ],
+      "overall_score": 50.71
+    }
+  }
+}

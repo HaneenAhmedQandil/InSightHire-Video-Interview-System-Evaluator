@@ -1,0 +1,83 @@
+{
+  "question": "Given a large dataset of audio recordings, describe at least three feature-extraction techniques (e.g., Mel-spectrogram, log-Mel, MFCC) and discuss the pros and cons of each for a SER task.",
+  "video_file": "data/recordings/interview_20250601_015435.mp4",
+  "transcript": "For speech, emotional recognition, free common feature extraction techniques are melispectogram and represent the power of spectrum of audio on melisquery, which aligns well with human perception. The second one is melispectogram, it is a melispectogram with logarithmic compression. The third one is MFCC, melisfrequency-subestral coefficients. This compresses melispectrum using a discrete cosine transform. In general, log melispectograms will rule with one feature fed and to transform it or serve as verbal models, tend to perform best for modern speech, emotional recognition tasks. And there are pros and cons for each one.",
+  "emotion_analysis": {
+    "dominant_emotion": "disgust",
+    "avg_confidence": 0.6308019459247589,
+    "emotion_distribution": {
+      "disgust": 4,
+      "angry": 1,
+      "surprised": 1
+    },
+    "total_segments": 6,
+    "all_emotions": [
+      "disgust",
+      "disgust",
+      "disgust",
+      "angry",
+      "surprised",
+      "disgust"
+    ],
+    "all_confidences": [
+      0.6749593019485474,
+      0.7257872819900513,
+      0.5941877365112305,
+      0.5189768075942993,
+      0.5850756764411926,
+      0.6858248710632324
+    ]
+  },
+  "emotion_score": 11.039034053683281,
+  "answer_evaluation": {
+    "question": "Given a large dataset of audio recordings, describe at least three feature-extraction techniques (e.g., Mel-spectrogram, log-Mel, MFCC) and discuss the pros and cons of each for a SER task.",
+    "type": "Technical",
+    "old_dataset_score": 0.0,
+    "rubric_score": 37.14,
+    "final_combined_score": 37.14,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Clarity",
+          "score": 30,
+          "explanation": "The answer is difficult to understand due to unclear explanations and terminology errors."
+        },
+        {
+          "name": "Accuracy",
+          "score": 20,
+          "explanation": "There are several factual inaccuracies and terminology mistakes such as 'melispectogram'."
+        },
+        {
+          "name": "Completeness",
+          "score": 40,
+          "explanation": "The answer mentions three techniques but fails to adequately discuss their pros and cons."
+        },
+        {
+          "name": "Relevance",
+          "score": 50,
+          "explanation": "The answer attempts to address the question but lacks precise and relevant details."
+        },
+        {
+          "name": "Depth",
+          "score": 35,
+          "explanation": "The response provides superficial coverage without detailed insights into each technique."
+        },
+        {
+          "name": "Conciseness",
+          "score": 60,
+          "explanation": "The answer is brief but misses necessary details, making it overly concise."
+        },
+        {
+          "name": "Engagement",
+          "score": 25,
+          "explanation": "The incoherent structure and errors hinder reader interest and understanding."
+        }
+      ],
+      "overall_score": 37.14
+    }
+  },
+  "answer_score": 37.14,
+  "combined_score": 24.08951702684164,
+  "timestamp": "20250601_015435",
+  "duration": 60
+}

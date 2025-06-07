@@ -1,0 +1,104 @@
+{
+  "timestamp": "20250606_025804",
+  "video_file": "data/recordings/interview_q0_20250606_025603.mp4",
+  "question": "Tell me about a time you faced a conflict in a team. How did you resolve it?",
+  "question_type": "HR",
+  "emotion_analysis": {
+    "dominant_emotion": "disgust",
+    "avg_confidence": 0.682394007841746,
+    "emotion_distribution": {
+      "disgust": 2,
+      "angry": 1
+    },
+    "total_segments": 3,
+    "all_emotions": [
+      "disgust",
+      "angry",
+      "disgust"
+    ],
+    "all_confidences": [
+      0.5700446963310242,
+      0.7677010297775269,
+      0.709436297416687
+    ]
+  },
+  "transcript": "At the end of the half-way, the contract was at my first beginning at the university when I were a group in IS project. I have contacted my team and tell them it.",
+  "grammar_analysis": {
+    "grammar_score": 76.0,
+    "local_errors": [],
+    "error_count": 0,
+    "filler_count": 0,
+    "filler_rate": 0.0,
+    "word_count": 33,
+    "original_word_count": 33,
+    "sentence_count": 2,
+    "key_strengths": [
+      "natural speech patterns",
+      "conciseness"
+    ],
+    "key_issues": [
+      "subject-verb agreement",
+      "verb tense consistency",
+      "sentence structure"
+    ],
+    "specific_suggestions": [
+      "Use 'was' instead of 'were' for singular subject 'I'",
+      "Ensure verb tense consistency throughout the passage",
+      "Clarify sentence structure for better understanding"
+    ],
+    "interview_assessment": "The passage demonstrates natural speech patterns but has issues with subject-verb agreement and verb tense consistency, affecting clarity.",
+    "corrected_text": "At the end of the half-way, the contract was at my first beginning at the university when I were a group in IS project. I have contacted my team and tell them it.",
+    "original_text": "At the end of the half-way, the contract was at my first beginning at the university when I were a group in IS project. I have contacted my team and tell them it.",
+    "cleaned_text": "At the end of the half-way, the contract was at my first beginning at the university when I were a group in IS project. I have contacted my team and tell them it.",
+    "analysis_type": "hybrid",
+    "ai_used": true
+  },
+  "answer_evaluation": {
+    "question": "Tell me about a time you faced a conflict in a team. How did you resolve it?",
+    "type": "HR",
+    "old_dataset_score": 0.0,
+    "rubric_score": 31.91,
+    "final_combined_score": 31.91,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Relevance",
+          "score": 40.0,
+          "explanation": "The response inadequately addresses the question by mentioning a team conflict without providing specific details on the resolution."
+        },
+        {
+          "name": "Clarity",
+          "score": 26.67,
+          "explanation": "The answer is confusing and difficult to understand due to poor sentence structure, grammatical errors, and lack of coherence."
+        },
+        {
+          "name": "Professionalism",
+          "score": 50.0,
+          "explanation": "The tone is neutral but lacks the necessary depth, structure, and reflective narrative for a professional setting."
+        },
+        {
+          "name": "Depth of Insight",
+          "score": 16.67,
+          "explanation": "The response lacks detailed insights or examples pertaining to conflict resolution."
+        },
+        {
+          "name": "Positivity",
+          "score": 36.67,
+          "explanation": "The response lacks a positive framing and fails to provide a clear resolution or reference point."
+        },
+        {
+          "name": "Engagement",
+          "score": 23.33,
+          "explanation": "The response does not effectively invite further discussion or engage the interviewer."
+        },
+        {
+          "name": "Adaptability",
+          "score": 30.0,
+          "explanation": "The response lacks adaptability and application of skills necessary for resolving the conflict and fulfilling the role effectively."
+        }
+      ],
+      "overall_score": 31.91
+    }
+  },
+  "aggregate_evaluation": null
+}

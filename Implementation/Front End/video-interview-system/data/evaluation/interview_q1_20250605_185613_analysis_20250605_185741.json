@@ -1,0 +1,82 @@
+{
+  "timestamp": "20250605_185741",
+  "video_file": "data/recordings/interview_q1_20250605_185613.mp4",
+  "question": "What are your greatest strengths and how do they apply to this role?",
+  "question_type": "HR",
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "avg_confidence": 0.9978799819946289,
+    "emotion_distribution": {
+      "angry": 1
+    },
+    "total_segments": 1,
+    "all_emotions": [
+      "angry"
+    ],
+    "all_confidences": [
+      0.9978799819946289
+    ]
+  },
+  "transcript": "My greatest friends that I have not done.",
+  "grammar_analysis": {
+    "grammar_score": 100.0,
+    "local_errors": [],
+    "error_count": 0,
+    "word_count": 8,
+    "sentence_count": 1,
+    "suggestions": [],
+    "overall_assessment": "Excellent grammar! Score: 100.0/100",
+    "corrected_text": "My greatest friends that I have not done.",
+    "original_text": "My greatest friends that I have not done.",
+    "analysis_type": "local_only",
+    "ai_used": false
+  },
+  "answer_evaluation": {
+    "question": "What are your greatest strengths and how do they apply to this role?",
+    "type": "HR",
+    "old_dataset_score": 92.14,
+    "rubric_score": 5.48,
+    "final_combined_score": 31.48,
+    "rubric_breakdown": {
+      "scores": [
+        {
+          "name": "Relevance",
+          "score": 6.67,
+          "explanation": "The response fails to address the question regarding relevant strengths and their application to the role."
+        },
+        {
+          "name": "Clarity",
+          "score": 13.33,
+          "explanation": "The response is unclear and fails to convey meaningful, coherent, or sensible information."
+        },
+        {
+          "name": "Professionalism",
+          "score": 6.67,
+          "explanation": "The response is unsuitable for a professional HR interview due to its lack of coherence and professional tone, and the inappropriate mention of friends."
+        },
+        {
+          "name": "Depth of Insight",
+          "score": 1.67,
+          "explanation": "The response lacks relevant insights or examples that demonstrate the candidate's qualifications."
+        },
+        {
+          "name": "Positivity",
+          "score": 6.67,
+          "explanation": "The response is not positively framed, lacks constructive content, and fails to address challenges appropriately."
+        },
+        {
+          "name": "Engagement",
+          "score": 1.67,
+          "explanation": "The answer fails to invite further discussion or engage the interviewer."
+        },
+        {
+          "name": "Adaptability",
+          "score": 1.67,
+          "explanation": "The response lacks evidence of adaptability and skill application relevant to the role."
+        }
+      ],
+      "overall_score": 5.48
+    }
+  },
+  "aggregate_evaluation": null
+}
