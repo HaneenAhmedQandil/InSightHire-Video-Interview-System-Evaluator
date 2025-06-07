@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Relevance",
+    "description": "The answer directly addresses the question asked and stays on topic."
+  },
+  {
+    "name": "Clarity",
+    "description": "The response is clear, concise, and easy to understand."
+  },
+  {
+    "name": "Professionalism",
+    "description": "The answer maintains a professional tone suitable for an HR interview."
+  },
+  {
+    "name": "Depth of Insight",
+    "description": "The response provides detailed insights or examples that showcase the candidate's qualifications."
+  },
+  {
+    "name": "Positivity",
+    "description": "The answer is framed positively, even when discussing challenges or weaknesses."
+  },
+  {
+    "name": "Engagement",
+    "description": "The response invites further discussion and engages the interviewer."
+  },
+  {
+    "name": "Adaptability",
+    "description": "The answer demonstrates the candidate's ability to adapt their skills and experiences to the role."
+  }
+]
