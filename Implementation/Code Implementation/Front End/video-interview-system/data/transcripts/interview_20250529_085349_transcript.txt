@@ -1,0 +1,7 @@
+Video: data/recordings/interview_20250529_085349.mp4
+Dominant Emotion: angry
+Confidence: 0.709
+Emotion Distribution: {'happy': 1, 'angry': 2, 'disgust': 2}
+
+Transcript:
+I'm Hanyi, I'm a student at the PTT University of Egypt. I'm a junior year student in major EI. And I'm currently working on finalizing my graduation project, that is about a really interview system. It is a contest of C4, the first part is emotion analysis. It has eight classes. The second part is the answer evaluation. And the third part is report generation for the previous two course. And now I'm testing the front end of my graduation project. It is not required from us, but it will give us an edge of it is implemented. So...

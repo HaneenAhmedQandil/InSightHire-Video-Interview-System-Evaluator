@@ -1,0 +1,7 @@
+Video: data/recordings/interview_20250529_095325.mp4
+Dominant Emotion: sad
+Confidence: 1.000
+Emotion Distribution: {'sad': 5}
+
+Transcript:
+you you

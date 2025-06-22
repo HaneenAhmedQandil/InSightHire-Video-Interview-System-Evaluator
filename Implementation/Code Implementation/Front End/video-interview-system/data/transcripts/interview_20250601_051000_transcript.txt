@@ -1,0 +1,10 @@
+Video: data/recordings/interview_20250601_051000.mp4
+Question: Explain how you would implement a Transformer-based Speech Emotion Recognition (SER) pipeline end-to-end, from raw audio input to predicted emotion labels.
+Question Type: Technical
+Dominant Emotion: angry
+Confidence: 0.518
+Emotion Distribution: {'fearful': 2, 'angry': 3, 'disgust': 1}
+Final Evaluation Score: 24.76/100
+
+Transcript:
+Transponder, this speech of mission can be done through MFCC or MNASpectogram or Spectogram. So it can be non-throw this as a feature extraction process. The frequencies would be extracted and the embedding would be used to plot this feature from a noun on to help us detect the emotions or especially frequencies from sound, something like this. So it would have as very effectively.
